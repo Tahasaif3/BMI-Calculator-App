@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BMI Calculator App
 
-## Getting Started
+A simple and responsive **Body Mass Index (BMI)** calculator built using **Next.js**, **TypeScript**, and **Tailwind CSS**. This app allows users to calculate their BMI based on their height and weight, using either the Metric or Imperial system. The result is displayed with the BMI value and the corresponding weight category (e.g., underweight, normal, overweight, obese).
 
-First, run the development server:
+## Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can check out the live demo [here](https://bmi-calculator-app-uowi.vercel.app/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Calculate BMI using both **Metric** (cm, kg) and **Imperial** (inches, lbs) units.
+- Clean and responsive UI built with **Tailwind CSS**.
+- Dynamic feedback on the BMI result with weight category classification.
+- Easy-to-use input fields and a radio button group for unit selection.
+- Client-side validation for input fields (height and weight).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Next.js**: A React framework for building fast, server-side rendered applications.
+- **TypeScript**: Typed superset of JavaScript, enhancing code quality and readability.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation and Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get a local copy of this project up and running, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/Tahasaif3/BMI-Calculator-App.git
+   cd BMI-Calculator-App
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   Ensure you have **Node.js** installed, then run:
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open your browser and navigate to `http://localhost:3000` to view the app.
+
+## How to Use
+
+1. Select your preferred unit of measurement (Metric or Imperial).
+2. Enter your **height** and **weight** in the appropriate fields.
+3. Click the **"Calculate BMI"** button to see your BMI value and the corresponding weight category.
+
+## Future Improvements
+
+- Add support for **age** and **gender** factors.
+- Implement a more detailed BMI chart with health advice.
+- Add animations for improved user experience.
+- Include unit testing with **Jest** and **React Testing Library**.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, feel free to open a pull request or an issue on the [GitHub repository](https://github.com/Tahasaif3/BMI-Calculator-App).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Taha Saif**  
+[Portfolio](https://my-portfolio-4576f.web.app) | [GitHub](https://github.com/Tahasaif3) | [LinkedIn](https://www.linkedin.com/in/taha-saif-842269261/)
